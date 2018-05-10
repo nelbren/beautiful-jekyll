@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre mi
-subtitle: Ten cuidado cuando expulses tus demonios, no vayas a desechar lo mejor de ti
+subtitle: Ten cuidado cuando expulses tus demonios
 ---
 
 Mi nombre es **Nelbren**. 
