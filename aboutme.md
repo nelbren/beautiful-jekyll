@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre mi
-subtitle: "Ten cuidado cuando expulses tus demonios, no vayas a desechar lo mejor de ti" - Friedrich Nietzsche
+subtitle: Ten cuidado cuando expulses tus demonios, no vayas a desechar lo mejor de ti
 ---
 
 Mi nombre es **Nelbren**. 
