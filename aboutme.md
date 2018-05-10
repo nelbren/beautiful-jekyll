@@ -4,7 +4,7 @@ title: Sobre mi
 subtitle: "Ten cuidado cuando expulses tus demonios, no vayas a desechar lo mejor de ti" - Friedrich Nietzsche
 ---
 
-# Mi nombre es Nelbren. 
+Mi nombre es **Nelbren**. 
 
 Características / diagnóstico:
 
