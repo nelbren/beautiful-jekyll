@@ -31,7 +31,15 @@ Obtiene la información de Nagios a través de [MK Livestatus](http://mathias-ke
 - **Imagen:** genera una imagen, usando un conjunto de imagenes como tema y marca de tiempo de color.
 
 
-> Ejemplo de Protector de pantalla
+> Ejemplo en generación en vivo de Imagenes:
+> ![](https://npr3s.com/pelican/images/nagios/status_npro-vps-01.png)
+> ![](https://npr3s.com/pelican/images/nagios/status_ndev-vps-01.png)
+> ![](https://npr3s.net/pelican/images/nagios/status_npro-vps-01.png)
+> ![](https://npr3s.net/pelican/images/nagios/status_ndev-vps-01.png)
+
+## Ver sitio de actualización en [01](https://npr3s.com/pelican/) y [02](https://npr3s.net/pelican/)
+
+> Ejemplo de como se muestra el Protector de pantalla
 > ![NCS Protector de Pantalla Ejemplo](/img/custom/ncs.png)
 
 ## Ver sitio oficial de [Nagios Check Status (NCS)](http://ncs.npr3s.com)
