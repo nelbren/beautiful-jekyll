@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sobre mi
+show-avatar: true
 subtitle: Ten cuidado cuando expulses tus demonios, no vayas a desechar lo mejor de ti
 ---
 
