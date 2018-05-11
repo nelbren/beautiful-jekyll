@@ -1,6 +1,7 @@
 ---
 title: Nagios Check Status (NCS)
 date: 2018-05-10 23:22:00
+show-avatar: true
 bigimg: /img/custom/mincs.png
 categories:
 - nagios
@@ -27,7 +28,7 @@ Obtiene la información de Nagios a través de [MK Livestatus](http://mathias-ke
 - **Alarma:** pronuncia el resumen de estado y/o reproduce un archivo mp3.
 - **Terminal:** muestra un reporte por demanda.
 - **Correo:** envia un correo electrónico similar al protector de pantalla o terminal.
-- **Imagen:** genera una imagen, la imagen adicional y el color de fondo.
+- **Imagen:** genera una imagen, usando un conjunto de imagenes como tema y marca de tiempo de color.
 
 
 > Ejemplo de Protector de pantalla
