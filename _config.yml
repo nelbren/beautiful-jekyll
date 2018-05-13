@@ -19,6 +19,8 @@ title: Nelbren
 # Short description of your site
 description: Inserte aquí una descripción simplemente asombrosa!
 
+date_format: '%Y-%m-%d'
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
@@ -139,11 +141,20 @@ title-separator: "-"
 timezone: "America/Tegucigalpa"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
-
 kramdown:
   input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'monokai_sublime'
+    #css_class: 'night'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+permalink: /:year-:month-:day-:title/
+paginate: 5
 
 # Default YAML values (more information on Jekyll's site)
 defaults:

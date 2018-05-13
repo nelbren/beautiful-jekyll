@@ -14,11 +14,11 @@ Hola de nuevo!
 
 Este es mi primer post.
 
-![](/assets/images/jekyll-logo.png)
+![](/img/custom/jekyll-logo.png)
 
 # En estos momentos, uso de: [Jekyll basado en Ruby](https://jekyllrb.com/)
 
-![](/assets/images/dr._jekyll_y_mr._hyde-2.jpg)
+![](/img/custom/dr._jekyll_y_mr._hyde-2.jpg)
 
 # 2018-05-10-Jekyll_static_website_generator.md
 
