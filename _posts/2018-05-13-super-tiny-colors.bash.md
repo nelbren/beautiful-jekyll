@@ -1,10 +1,11 @@
 ---
-title: Librería de Colores  Súper Pequeña
+title: Librería de Colores Súper Pequeña
 date: 2018-05-13 17:26:00
 show-avatar: true
 bigimg: /img/custom/super-tiny-colors.png
 categories:
 - terminal
+- consola
 tags:
 - github
 - bash
@@ -16,22 +17,22 @@ tags:
 # Librería de Colores Súper Pequeña
 
 ## ¿Que es? 
-Es una ultra super recontra compacta pequeñita y minimalista **librería** (*alojoda en 7 lineas de código*) para usarla en secuencias de comandos de [Bash](https://es.wikipedia.org/wiki/Bash).
+Es una ultra súper recontra compacta pequeñita y minimalista **librería** (*alojoda en 7 líneas de código*) para usarla en secuencias de comandos de [Bash](https://es.wikipedia.org/wiki/Bash).
 
 ## ¿Cómo funciona?
-Utiliza variables para fijar los colores, encapsulando de esta manera el uso directo de los [códigos de color ansi](https://misc.flogisoft.com/bash/tip_colors_and_formatting), logrando con ello rapidez, consolidación e independecia.
+Utiliza variables para fijar los colores, encapsulando de esta manera el uso directo de los [códigos de color ANSI](https://misc.flogisoft.com/bash/tip_colors_and_formatting), logrando con ello rapidez, consolidación e independencia.
 
 ## Ejemplos:
 
-### Uso de códigos de color ansi:
+### Uso de códigos de color ANSI:
 > ![](/img/custom/tip_colors_and_formatting.png)
 
 ### Uso de super-tiny-colors:
 > ![](/img/custom/uso_de_super-tiny-colors.png)
 
-## ¿Como la obtengo?
+## ¿Cómo la obtengo?
 
-- ### Por medio de [github](https://github.com/nelbren/npres.git) (recomendada):
+- ### Por medio de [github](https://github.com/nelbren/npres.git) (recomendado):
   - cd /usr/local/
   - git clone https://github.com/nelbren/npres.git
 
@@ -40,7 +41,7 @@ Utiliza variables para fijar los colores, encapsulando de esta manera el uso dir
 - ### Por medio de wget:
   - wget https://raw.githubusercontent.com/nelbren/npres/master/lib/super-tiny-colors.bash
 
-## ¿Como defino los colores?
+## ¿Cómo están definidos los colores?
 
 - ### Identificación de colores:
 
