@@ -16,7 +16,7 @@ tags:
 
 # Librería de Colores Súper Pequeña
 
-## ¿Que es? 
+## ¿Qué es? 
 Es una ultra súper recontra compacta pequeñita y minimalista **librería** (*alojoda en 7 líneas de código*) para usarla en secuencias de comandos de [Bash](https://es.wikipedia.org/wiki/Bash).
 
 ## ¿Cómo funciona?
