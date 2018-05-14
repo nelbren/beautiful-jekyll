@@ -79,7 +79,7 @@ social-network-links:
   github: nelbren
   twitter: nelbren
 #  reddit: yourname
-#  google-plus: +DeanAttali
+  google-plus: +nelbren
   linkedin: nelbren
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -96,7 +96,7 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
+  google: true
   linkedin: true
 
 # How to display the link to the website in the footer
