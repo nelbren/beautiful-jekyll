@@ -1,5 +1,5 @@
 ---
-title: Libreria de Colores  Súper Pequeña
+title: Librería de Colores  Súper Pequeña
 date: 2018-05-13 17:26:00
 show-avatar: true
 bigimg: /img/custom/super-tiny-colors.png
@@ -13,10 +13,10 @@ tags:
 - colors
 ---
 
-# Libreria de Colores Súper Pequeña
+# Librería de Colores Súper Pequeña
 
 ## ¿Que es? 
-Es una ultra super recontra compacta pequeñita y minimalista **libreria** (*alojoda en 7 lineas de código*) para usarla en secuencias de comandos de [Bash](https://es.wikipedia.org/wiki/Bash).
+Es una ultra super recontra compacta pequeñita y minimalista **librería** (*alojoda en 7 lineas de código*) para usarla en secuencias de comandos de [Bash](https://es.wikipedia.org/wiki/Bash).
 
 ## ¿Cómo funciona?
 Utiliza variables para fijar los colores, encapsulando de esta manera el uso directo de los [códigos de color ansi](https://misc.flogisoft.com/bash/tip_colors_and_formatting), logrando con ello rapidez, consolidación e independecia.
@@ -54,7 +54,7 @@ Utiliza variables para fijar los colores, encapsulando de esta manera el uso dir
   y | yellow
   a | gray
 
-- ### Formato usado por libreria:
+- ### Formato usado por librería:
 
   Descripción | Color de fondo | Color de frente | Ejemplo
   --- | --- | --- | --- 
