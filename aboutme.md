@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Sobre mi
+ref: aboutme
+lang: en
+title: About me
 show-avatar: true
-subtitle: Ten cuidado cuando expulses tus demonios, no vayas a desechar lo mejor de ti
+subtitle: Be careful, lest in casting out your demon you exorcise the best thing in you.
 ---
+My name is **Nelbren**. 
 
-Mi nombre es **Nelbren**. 
+Characteristics / diagnosis:
 
-Características / diagnóstico:
-
-- Soy un desarrollador y administrador de sistemas de Honduras. 
-- Usuario del sistema operativo universal (Debian GNU / Linux). 
-- Me gusta el software libre, jugar videojuegos y escuchar música.
+- I am a developer & sysadmin from Honduras. 
+- User of the universal operating system (Debian GNU/Linux). 
+- I like free software   , play video games  & listening music.
 

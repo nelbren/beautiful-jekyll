@@ -55,14 +55,33 @@ layout: base
       <ul class="pager blog-pager">
         {% if page.previous.url %}
         <li class="previous">
-          <!-- a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a-->
-          <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Publicación Anterior</a>
+          {% for post in site.posts %}
+            {% if post.lang == page.lang %}
+              {% if prev %}
+                <a href="{{ post.url }}" data-toggle="tooltip" data-placement="top" title="{{ post.url.title }}">&larr; {% if page.lang == 'en' %} Previous Post {% else %} Publicación Anterior {% endif %}</a>
+              {% endif %}
+              {% assign prev = false %}
+              {% if post.id == page.id %}
+                {% assign prev = true %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
         </li>
         {% endif %}
         {% if page.next.url %}
         <li class="next">
-          <!-- a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a -->
-          <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Publicación Siguiente &rarr;</a>
+          {% for post in site.posts reversed %}
+            {% if post.lang == page.lang %}
+              {% if next %}
+                <a href="{{ post.url }}" data-toggle="tooltip" data-placement="top" title="{{post.url.title}}">{% if page.lang == 'en' %} Next Post {% else %} Publicación Siguiente {% endif %} &rarr;</a>
+                {% break %}
+              {% endif %}
+              {% assign next = false %}
+              {% if post.id == page.id %}
+                {% assign next = true %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
         </li>
         {% endif %}
       </ul>

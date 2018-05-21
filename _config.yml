@@ -24,12 +24,12 @@ date_format: '%Y-%m-%d'
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-navbar-links:
-  Sobre mi: "aboutme"
-  Proyectos:
-    - Nagios Check Status (NCS): "https://nelbren.com/2018-05-10-NCS_nagios_check_status/"
+#navbar-links:
+#  Sobre mi: "aboutme"
+#  Proyectos:
+#    - Nagios Check Status (NCS): "https://nelbren.com/2018-05-10-NCS_nagios_check_status/"
     #- Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub profile: "https://github.com/nelbren"
+    #    - GitHub profile: "https://github.com/nelbren"
   #Author's home: "https://nelbren.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -153,8 +153,19 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-permalink: /:year-:month-:day-:title/
+#permalink: /:year-:month-:day-:title/
+permalink: /:categories/:year/:month/:day/:title/
 paginate: 5
+paginate_path: "/page:num"
+paginate_per_category: true
+default_category: "en"
+
+#jekyll-archives:
+#  enabled:
+#    - categories
+#  layout: category_archives
+#  permalinks:
+#    category: /categories/:name/ 
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -166,12 +177,22 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      lang: en
+      base-url: "/"
   -
     scope:
       path: "" # all files
     values:
       layout: "page"
       show-avatar: false
+      lang: en
+      base-url: "/"
+  -
+    scope:
+      path: es
+    values:
+      lang: es
+      base-url: "/es/"
 
 # Use tags index page and make tags on each post clickable
 link-tags: true
@@ -242,6 +263,40 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
+# Value to use into url per language
+lang: en
+languages: ["en", "es"]
+langs-value:
+    en: ""
+    es: es
+
+# Translation
+t:
+    home:
+        en: "Home"
+        fr: "Accueil"
+    project:
+        en: "Project"
+        fr: "Projets"
+    about-me:
+        en: "About me"
+        fr: "À propos"
+    contact:
+        en: "Contact"
+        fr: "Contact"
+    subtitle:
+        en: "My very own part of the Internet"
+        fr: "Ma propre parcelle d'Internet"
+    footer-article:
+        en: "Found a mistake, or just want to add your words to this post ?"
+        fr: "Vous avez trouvé une erreur ou souhaitez juste ajouter votre grain de sel ?"
+    fork:
+        en: "Fork it on github"
+        fr: "Éditer sur github"
+    desc:
+        en: "My personnal website. Anthony Granger"
+        fr: "Mon site personnel. Anthony Granger"
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

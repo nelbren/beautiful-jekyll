@@ -1,6 +1,8 @@
 ---
-title: Librería de Colores  Súper Pequeña
+title: Librería de Colores Súper Pequeña
 date: 2018-05-13 17:26:00
+ref: super-tiny-colors
+lang: es
 show-avatar: true
 bigimg: /img/custom/super-tiny-colors.png
 categories:
@@ -29,7 +31,7 @@ Utiliza variables para fijar los colores, encapsulando de esta manera el uso dir
 ### Uso de super-tiny-colors:
 > ![](/img/custom/uso_de_super-tiny-colors.png)
 
-## ¿Como la obtengo?
+## ¿Cómo la obtengo?
 
 - ### Por medio de [github](https://github.com/nelbren/npres.git) (recomendada):
   - cd /usr/local/
@@ -40,7 +42,7 @@ Utiliza variables para fijar los colores, encapsulando de esta manera el uso dir
 - ### Por medio de wget:
   - wget https://raw.githubusercontent.com/nelbren/npres/master/lib/super-tiny-colors.bash
 
-## ¿Como defino los colores?
+## ¿Cómo defino los colores?
 
 - ### Identificación de colores:
 
@@ -54,7 +56,7 @@ Utiliza variables para fijar los colores, encapsulando de esta manera el uso dir
   y | yellow
   a | gray
 
-- ### Formato usado por librería:
+- ### Formato usado por la librería:
 
   Descripción | Color de fondo | Color de frente | Ejemplo
   --- | --- | --- | --- 

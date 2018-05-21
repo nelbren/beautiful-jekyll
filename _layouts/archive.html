@@ -1,0 +1,30 @@
+---
+layout: default
+ref: archive
+---
+
+<div class="home">
+
+  <h1 class="page-heading">{{ page.title }}</h1>
+
+  {% capture site_lang %}{{ site.lang | default: "en" }}{% endcapture %}
+  {% assign posts=site.posts | where: "lang", page.lang %}
+
+  <ul class="post-archives">
+    {% for post in posts %}
+      {% capture post_lang %}{{ post.lang | default: site_lang }}{% endcapture %}
+      {% capture lang %}{% if post_lang != site_lang %}{{ post_lang }}{% endif %}{% endcapture %}
+
+      <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.tags != empty %} • {% for tag in post.tags %}{{ tag }} • {% endfor %}{% endif %}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}"{% if lang != empty %} lang="{{ lang }}"{% endif %}>{{ post.title | escape }}{% if post.external-url %} &rarr;{% endif %}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {{ content }}
+
+</div>

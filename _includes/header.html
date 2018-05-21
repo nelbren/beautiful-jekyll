@@ -35,10 +35,26 @@
 			{% endif %}
 		  {% endif %}
 		  
-		  {% if include.type == "post" %}
-		  <!-- span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span -->
-		  <span class="post-meta">Publicado el {{ page.date | date: "%Y-%m-%d" }}</span>
-		  {% endif %}
+      {% if include.type == "post" %}
+        {% if page.lang == 'en' %}
+        <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+        {% else %}
+        <span class="post-meta">Publicado el {{ page.date | date: "%Y-%m-%d" }}</span>
+        {% endif %}
+        |
+        {% assign posts=site.posts | where: "ref", page.ref %}
+        {% for post in posts %}
+          {% if post.lang != page.lang %}
+            <span class="post-meta">
+            {% if post.lang == 'en' %}
+            <a href="{{ post.url }}">English</a>
+            {% else %}
+            <a href="{{ post.url }}">Español</a>
+            {% endif %}
+            </span>
+          {% endif %} 
+        {% endfor %}   
+      {% endif %}
         </div>
       </div>
     </div>
@@ -61,9 +77,25 @@
 			{% endif %}
 		  {% endif %}
 		  
-		  {% if include.type == "post" %}
-		  <!-- span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span -->
-		  <span class="post-meta">Publicado el {{ page.date | date: "%Y-%m-%d" }}</span>
+      {% if include.type == "post" %}
+        {% if page.lang == 'en' %}
+        <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+        {% else %}
+        <span class="post-meta">Publicado el {{ page.date | date: "%Y-%m-%d" }}</span>
+        {% endif %}
+        |
+        {% assign posts=site.posts | where: "ref", page.ref %}
+        {% for post in posts %}
+          {% if post.lang != page.lang %}
+            <span class="post-meta">
+            {% if post.lang == 'en' %}
+            <a href="{{ post.url }}">English</a>
+            {% else %}
+            <a href="{{ post.url }}">Español</a>
+            {% endif %}
+            </span>
+          {% endif %} 
+        {% endfor %}   
 		  {% endif %}
         </div>
       </div>

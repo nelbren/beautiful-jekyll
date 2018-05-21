@@ -10,12 +10,48 @@
       {% if site.title-img %}
         <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}"><img src="{{ site.title-img }}"/></a>
       {% else %}
+        {% if page.lang == 'en' %}
         <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+	{% else %}
+        <a class="navbar-brand" href="{{ site.url }}/es">{{ site.title }}</a>
+	{% endif %}
       {% endif %}
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
+      {% for item in site.data.navigation.languages %}
+        {% if item.language == page.lang %}
+          {% for link in item.links %}
+            {% if link[1] contains "http" %}
+              {% assign url = link[1] %}
+            {% else %}
+              {% assign url = link[1] | relative_url %}
+            {% endif %}
+
+            <!-- a class="page-link" href="{{ url }}">{{ link.title }}</a -->
+
+            {% if link[1].first %}
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
+              <div class="navlinks-children">
+                {% for childlink in link[1] %}
+                  {% for linkparts in childlink %}
+                    {% include navbarlink.html link=linkparts %}
+                  {% endfor %}
+                {% endfor %}
+              </div>
+            </li>
+            {% else %}
+              <li>
+                {% include navbarlink.html link=link %}
+              </li>
+            {% endif %}
+          
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+
       {% for link in site.navbar-links %}
         {% if link[1].first %}
           <li class="navlinks-container">

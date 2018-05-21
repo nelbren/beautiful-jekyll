@@ -1,6 +1,8 @@
 ---
 title: Jekyll generador de sitios de web estáticos
 date: 2018-05-10 01:24:00
+ref: jekyll-generator
+lang: es
 categories:
 - blog
 tags:

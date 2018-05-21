@@ -1,6 +1,8 @@
 ---
-title: Nagios Check Status (NCS)
+title: Estado de comprobación de Nagios
 date: 2018-05-10 23:22:00
+ref: nagios-check-status
+lang: es
 show-avatar: true
 bigimg: /img/custom/mincs.png
 categories:
@@ -31,7 +33,7 @@ Obtiene la información de Nagios a través de [MK Livestatus](http://mathias-ke
 - **Imagen:** genera una imagen, usando un conjunto de imagenes como tema y marca de tiempo de color.
 
 
-> Ejemplo de Imagenes que son actualizan cada 5 minutos:  
+> Ejemplo de Imagenes que se actualizan cada 5 minutos:  
 > Sitio #[01](https://npr3s.com/pelican/)   
 > ![](https://npr3s.com/pelican/images/nagios/status_npro-vps-01.png)
 > ![](https://npr3s.com/pelican/images/nagios/status_ndev-vps-01.png)  
