@@ -3,11 +3,9 @@ languages:
     links:
       About me: aboutme
       projects:
-        - GitHub profile: http://github.com/nelbren
         - Nagios Check Status (NCS): en/nagios/2018/05/10/NCS_nagios_check_status
   - language: "es"
     links:
       Sobre mi: es/sobremi
       proyectos:
-        - GitHub perfil: http://github.com/nelbren
         - Estado de comprobación de Nagios (NCS): es/nagios/2018/05/10/NCS_nagios_check_status
