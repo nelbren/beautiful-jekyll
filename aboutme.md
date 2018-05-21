@@ -4,11 +4,9 @@ ref: aboutme
 lang: en
 title: About me
 show-avatar: true
-subtitle: Be careful, lest in casting out your demon you exorcise the best thing in you.
+subtitle: "'Be careful, lest in casting out your demon you exorcise the best thing in you.' Friedrich Nietzsche"
 ---
 My name is **Nelbren**. 
-
-Characteristics / diagnosis:
 
 - I am a developer & sysadmin from Honduras. 
 - User of the universal operating system (Debian GNU/Linux). 

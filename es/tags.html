@@ -13,14 +13,29 @@ lang: es
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
 {%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
+    {% assign counter = 0 %}
+    {%- for post in site.tags[tag] -%}
+      {% if post.lang == page.lang %}
+        {% assign counter=counter | plus:1 %}
+      {% endif %}
+    {% endfor %}
+    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{ counter }})</a>
 {%- endfor -%}
 
 <div id="full-tags-list">
+
 {%- for tag in tags_list -%}
+    {% assign counter = 0 %}
+    {%- for post in site.tags[tag] -%}
+      {% if post.lang == page.lang %}
+        {% assign counter=counter | plus:1 %}
+      {% endif %}
+    {% endfor %}
+
     <h2 id="{{- tag -}}" class="linked-section">
         <i class="fa fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
+        <!-- &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}}) -->
+        &nbsp;{{- tag -}}&nbsp;({{ counter }})        
     </h2>
     <div class="post-list">
         {%- for post in site.tags[tag] -%}

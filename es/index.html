@@ -24,8 +24,35 @@ show-avatar: true
     </a>
 
     <p class="post-meta">
-    <!-- Posted on {{ post.date | date: "%B %-d, %Y" }} -->
-      Publicado el {{ post.date | date: "%Y-%m-%d" }}
+      Publicado el
+      {% assign w = post.date | date: "%-w" %}
+      {% case w %}
+        {% when '0' %}Domingo
+        {% when '1' %}Lunes
+        {% when '2' %}Martes
+        {% when '3' %}Miercoles
+        {% when '4' %}Jueves
+        {% when '5' %}Viernes
+        {% when '6' %}Sabado
+      {% endcase %}
+      {% assign m = post.date | date: "%-m" %}
+      {{ post.date | date: "%-d" }}
+      {% case m %}
+        {% when '1' %}Enero
+        {% when '2' %}Febrero
+        {% when '3' %}Marzo
+        {% when '4' %}Abril
+        {% when '5' %}Mayo
+        {% when '6' %}Junio
+        {% when '7' %}Julio
+        {% when '8' %}Agosto
+        {% when '9' %}Septiembre
+        {% when '10' %}Octubre
+        {% when '11' %}Noviembre
+        {% when '12' %}Diciembre
+      {% endcase %}
+      del
+      {{ post.date | date: "%Y" }}
     </p>
 
     <div class="post-entry-container">

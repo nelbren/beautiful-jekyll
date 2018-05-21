@@ -58,15 +58,15 @@
         {% if n_pages > 0 %}
           {% for page2 in pages %}
             {% if page2.lang != page.lang %}
-              <a href="{{ page2.url }}">{% if page2.lang == 'en' %}English{% else %}Español{% endif %}</a>
-              {% break %}
+            <a href="{{ page2.url }}">{% if page2.lang == 'en' %}<i class="fa fa-language" aria-hidden="true"></i> English{% else %}<i class="fa fa-language" aria-hidden="true"></i> Español{% endif %}</a>
+            {% break %}
             {% endif %}
           {% endfor %}
         {% else %}
           {% assign posts=site.posts | where: "ref", page.ref %}
           {% for post2 in posts %}
             {% if post2.lang != page.lang %}
-              <a href="{{ post2.url }}">{% if post2.lang == 'en' %}English{% else %}Español{% endif %}</a>
+              <a href="{{ post2.url }}">{% if post2.lang == 'en' %}<i class="fa fa-language" aria-hidden="true"></i> English{% else %}<i class="fa fa-language" aria-hidden="true"></i> Español{% endif %}</a>
             {% endif %}
           {% endfor %}
         {% endif %}
