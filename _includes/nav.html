@@ -52,6 +52,26 @@
         {% endif %}
       {% endfor %}
 
+      <li>
+        {% assign pages=site.pages | where: "ref", page.ref %}
+        {% assign n_pages=pages | size %}
+        {% if n_pages > 0 %}
+          {% for page2 in pages %}
+            {% if page2.lang != page.lang %}
+              <a href="{{ page2.url }}">{% if page2.lang == 'en' %}English{% else %}Español{% endif %}</a>
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign posts=site.posts | where: "ref", page.ref %}
+          {% for post2 in posts %}
+            {% if post2.lang != page.lang %}
+              <a href="{{ post2.url }}">{% if post2.lang == 'en' %}English{% else %}Español{% endif %}</a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </li>
+
       {% for link in site.navbar-links %}
         {% if link[1].first %}
           <li class="navlinks-container">

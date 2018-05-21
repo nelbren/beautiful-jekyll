@@ -41,19 +41,6 @@
         {% else %}
         <span class="post-meta">Publicado el {{ page.date | date: "%Y-%m-%d" }}</span>
         {% endif %}
-        |
-        {% assign posts=site.posts | where: "ref", page.ref %}
-        {% for post in posts %}
-          {% if post.lang != page.lang %}
-            <span class="post-meta">
-            {% if post.lang == 'en' %}
-            <a href="{{ post.url }}">English</a>
-            {% else %}
-            <a href="{{ post.url }}">Español</a>
-            {% endif %}
-            </span>
-          {% endif %} 
-        {% endfor %}   
       {% endif %}
         </div>
       </div>
