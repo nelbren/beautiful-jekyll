@@ -4,12 +4,12 @@ languages:
       About me: aboutme
 #      Archives: archives
       projects:
-        - GitHub profile: "https://github.com/nelbren"
+        - GitHub profile: "github.com/nelbren"
         - Nagios Check Status (NCS): en/nagios/2018/05/10/NCS_nagios_check_status
   - language: "es"
     links:
       Sobre mi: es/sobremi
 #      Archivos: archivos
       proyectos:
-        - GitHub perfil: "https://github.com/nelbren"
+        - GitHub perfil: "github.com/nelbren"
         - Estado de comprobación de Nagios (NCS): es/nagios/2018/05/10/NCS_nagios_check_status
