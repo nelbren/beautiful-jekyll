@@ -26,21 +26,43 @@ This uses variables to set the colors, encapsulating in this way the direct use 
 ## Examples:
 
 ### Use of ANSI color codes:
+
+{% highlight shell linenos %}
+echo -e "\e[40;38;5;82m Hello \e[30;48;5;82m World \e[0m"
+{% endhighlight %}
+
+> Example:
 > ![](/img/custom/tip_colors_and_formatting.png)
 
 ### Use of the super-tiny-colors:
+
+{% highlight shell linenos %}
+git clone git@github.com:nelbren/npres.git
+source /usr/local/npres/lib/super-tiny-colors.bash
+echo -e "${nG} Hello ${Iy} World $S"
+echo -e "${nG} Hello ${Ig} World $S"
+echo -e "${nG} Hello ${Ir} World $S"
+echo -e "${nG} Hello ${Iw} World $S"
+{% endhighlight %}
+
+> Example:
 > ![](/img/custom/uso_de_super-tiny-colors.png)
 
 ## How do I obtain it?
 
-- ### •	Through [github](https://github.com/nelbren/npres.git) (recommended):
-  - cd /usr/local/
-  - git clone https://github.com/nelbren/npres.git
+- ### Through [github](https://github.com/nelbren/npres.git) (recommended):
+  {% highlight shell linenos %}
+  cd /usr/local/
+  git clone https://github.com/nelbren/npres.git
+{% endhighlight %}
 
   > *NOTA: repository of utilities of support of management of [Debian GNU/Linux](https://debian.org).*
 
 - ### Through wget:
-  - wget https://raw.githubusercontent.com/nelbren/npres/master/lib/super-tiny-colors.bash
+
+  {% highlight shell linenos %}
+  wget https://raw.githubusercontent.com/nelbren/npres/master/lib/super-tiny-colors.bash
+  {% endhighlight %}
 
 ## How are the colors defined?
 
