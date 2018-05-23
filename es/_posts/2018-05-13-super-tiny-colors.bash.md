@@ -24,9 +24,9 @@ Es una ultra súper recontra compacta pequeñita y minimalista **librería** (*a
 ## <i class="fa fa-wrench" aria-hidden="true"></i> ¿Cómo funciona?
 Utiliza variables para fijar los colores, encapsulando de esta manera el uso directo de los [códigos de color ANSI](https://misc.flogisoft.com/bash/tip_colors_and_formatting), logrando con ello rapidez, consolidación e independencia.
 
-## <i class="fa fa-eye" aria-hidden="true"></i> Ejemplos:
+## <i class="fa fa-eye" aria-hidden="true"></i> Envoltorio de códigos de color ANSI:
 
-### <i class="fa fa-thumbs-down" aria-hidden="true" style="color: red;"></i> Uso de códigos de color ANSI:
+- ### <i class="fa fa-thumbs-down" aria-hidden="true" style="color: red;"></i> Uso de códigos de color ANSI:
 
   > ```bash
 echo -e "\e[40;38;5;82m Hello \e[30;48;5;82m World \e[0m"
@@ -34,7 +34,7 @@ echo -e "\e[40;38;5;82m Hello \e[30;48;5;82m World \e[0m"
   > Ejemplo de ejecución de comando:
   > ![](/img/custom/tip_colors_and_formatting.png)
 
-### <i class="fa fa-thumbs-up" aria-hidden="true" style="color: green;"></i> Uso de super-tiny-colors:
+- ### <i class="fa fa-thumbs-up" aria-hidden="true" style="color: green;"></i> Uso de super-tiny-colors:
 
   > ```bash
 git clone git@github.com:nelbren/npres.git
@@ -85,9 +85,18 @@ echo -e "${nG} Hello ${Iw} World $S"
   Inverso **color brillante** | letra | black | ![](/img/custom/Iy.png)
   Inverso **blanco brillante** | **LETRA** | **white** | ![](/img/custom/iA.png)
 
-## <i class="fa fa-eye" aria-hidden="true"></i> examples1:
+## <i class="fa fa-eye" aria-hidden="true"></i> Ejemplos:
+
+- ### <i class="fa fa-eye" aria-hidden="true"></i> examples1:
   > ```bash
 examples1
   ```
   > Ejemplo de ejecución de comando:
   > ![](/img/custom/examples1.png) 
+
+- ### <i class="fa fa-eye" aria-hidden="true"></i> examples2:
+  > ```bash
+examples2
+  ```
+  > Ejemplo de ejecución de comando:
+  > ![](/img/custom/examples2.png) 

@@ -23,7 +23,7 @@ It is an ultra-super small compact and minimalist **library** (*done in 7 code l
 ## <i class="fa fa-wrench" aria-hidden="true"></i> How does it work?
 This uses variables to set the colors, encapsulating in this way the direct use of the [ANSI color codes](https://misc.flogisoft.com/bash/tip_colors_and_formatting), accomplishing quickness, consolidation and independence.
 
-## <i class="fa fa-eye" aria-hidden="true"></i> Examples:
+## <i class="fa fa-eye" aria-hidden="true"></i> Wrapper of ANSI color codes:
 
 - ### <i class="fa fa-thumbs-down" aria-hidden="true" style="color: red;"></i> Use of ANSI color codes:
 
@@ -85,9 +85,18 @@ echo -e "${nG} Hello ${Iw} World $S"
   Inverse ***bright color** | letter | black | ![](/img/custom/Iy.png)
   Inverse **bright white** | **LETTER** | **white** | ![](/img/custom/iA.png)
 
-## <i class="fa fa-eye" aria-hidden="true"></i> examples1:
+## <i class="fa fa-eye" aria-hidden="true"></i> Examples:
+
+- ### <i class="fa fa-laptop" aria-hidden="true"></i> examples1
   > ```bash
 examples1
   ```
   > Example of command execution:
   > ![](/img/custom/examples1.png) 
+
+- ### <i class="fa fa-laptop" aria-hidden="true"></i> examples2
+  > ```bash
+examples2
+  ```
+  > Example of command execution:
+  > ![](/img/custom/examples2.png) 
