@@ -7,7 +7,6 @@ show-avatar: true
 bigimg: /img/custom/super-tiny-colors.png
 categories:
 - terminal
-- consola
 tags:
 - github
 - bash
