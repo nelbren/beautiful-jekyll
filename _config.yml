@@ -139,13 +139,15 @@ title-separator: "-"
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Tegucigalpa"
+
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
     default_lang: html
-    css_class: 'monokai_sublime'
+    #css_class: 'monokai_sublime'
     #css_class: 'night'
     span:
       line_numbers: false

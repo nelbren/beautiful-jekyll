@@ -17,56 +17,53 @@ tags:
 
 # Super Tiny Colors Library
 
-## What is it?
+## <i class="fa fa-question-circle" aria-hidden="true"></i> What is it?
 It is an ultra-super small compact and minimalist **library** (*done in 7 code lines*) used for scripts of [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
 
-## How does it work?
+## <i class="fa fa-wrench" aria-hidden="true"></i> How does it work?
 This uses variables to set the colors, encapsulating in this way the direct use of the [ANSI color codes](https://misc.flogisoft.com/bash/tip_colors_and_formatting), accomplishing quickness, consolidation and independence.
 
-## Examples:
+## <i class="fa fa-eye" aria-hidden="true"></i> Examples:
 
-### Use of ANSI color codes:
+- ### <i class="fa fa-thumbs-down" aria-hidden="true" style="color: red;"></i> Use of ANSI color codes:
 
-{% highlight shell linenos %}
+  > ```bash
 echo -e "\e[40;38;5;82m Hello \e[30;48;5;82m World \e[0m"
-{% endhighlight %}
+  ```
+  > Example of command execution:
+  > ![](/img/custom/tip_colors_and_formatting.png)
 
-> Example:
-> ![](/img/custom/tip_colors_and_formatting.png)
+- ### <i class="fa fa-thumbs-up" aria-hidden="true" style="color: green;"></i> Use of the super-tiny-colors:
 
-### Use of the super-tiny-colors:
-
-{% highlight shell linenos %}
+  > ```bash
 git clone git@github.com:nelbren/npres.git
 source /usr/local/npres/lib/super-tiny-colors.bash
 echo -e "${nG} Hello ${Iy} World $S"
 echo -e "${nG} Hello ${Ig} World $S"
 echo -e "${nG} Hello ${Ir} World $S"
 echo -e "${nG} Hello ${Iw} World $S"
-{% endhighlight %}
+  ```
+  > Example of command execution:
+  > ![](/img/custom/uso_de_super-tiny-colors.png)
 
-> Example:
-> ![](/img/custom/uso_de_super-tiny-colors.png)
+## <i class="fa fa-arrow-circle-down" aria-hidden="true"></i> How do I obtain it?
 
-## How do I obtain it?
-
-- ### Through [github](https://github.com/nelbren/npres.git) (recommended):
-  {% highlight shell linenos %}
+- ### <i class="fa fa-github-square" aria-hidden="true"></i> Through [github](https://github.com/nelbren/npres.git) (recommended):
+  ```bash
   cd /usr/local/
   git clone https://github.com/nelbren/npres.git
-{% endhighlight %}
+  ```
 
-  > *NOTA: repository of utilities of support of management of [Debian GNU/Linux](https://debian.org).*
+  > <i class="fa fa-quote-left" aria-hidden="true"></i> *Repository of utilities of support of management of [Debian GNU/Linux](https://debian.org). *<i class="fa fa-quote-right" aria-hidden="true"></i>
 
-- ### Through wget:
-
-  {% highlight shell linenos %}
+- ### <i class="fa fa-download" aria-hidden="true"></i> Through wget:
+  ```bash
   wget https://raw.githubusercontent.com/nelbren/npres/master/lib/super-tiny-colors.bash
-  {% endhighlight %}
+  ```
 
-## How are the colors defined?
+## <i class="fa fa-info-circle" aria-hidden="true"></i> How are the colors defined?
 
-- ### Identification of colors:
+- ### <i class="fa fa-table" aria-hidden="true"></i> Identification of colors:
 
   **Letter** | **Color**
   --- | ---
@@ -78,7 +75,7 @@ echo -e "${nG} Hello ${Iw} World $S"
   y | yellow
   a | gray
 
-- ### •	Format used by the library:
+- ### <i class="fa fa-table" aria-hidden="true"></i> Format used by the library:
 
   Description | Background color | Front color | Example
   --- | --- | --- | --- 
@@ -88,5 +85,9 @@ echo -e "${nG} Hello ${Iw} World $S"
   Inverse ***bright color** | letter | black | ![](/img/custom/Iy.png)
   Inverse **bright white** | **LETTER** | **white** | ![](/img/custom/iA.png)
 
-## examples1:
-> ![](/img/custom/examples1.png) 
+## <i class="fa fa-eye" aria-hidden="true"></i> examples1:
+  > ```bash
+examples1
+  ```
+  > Example of command execution:
+  > ![](/img/custom/examples1.png) 
