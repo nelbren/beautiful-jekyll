@@ -23,12 +23,15 @@ Jekyll tiene un unico procesamiento de lenguage. La idea entonces es, modificar 
   - <i class="fa fa-link" aria-hidden="true"></i> [Multilingual blog with Jekyll 1.5](http://www.nicoespeon.com/en/2014/04/multilingual-blog-with-jekyll-1-5/)
 
     ![](/img/custom/external_multilingual_blog_with_jekyll_1.5.png)
+
   - <i class="fa fa-link" aria-hidden="true"></i> [Build a multilingual website with jekyll](http://chocanto.me/2016/04/16/jekyll-multilingual.html)
 
     ![](/img/custom/external_build_a_multilingual_website_with_jekyll.png)
+
   - <i class="fa fa-link" aria-hidden="true"></i> [How to make Jekyll multilingual](http://migueldavid.eu/en/2017/04/04/how-to-make-jekyll-multilingual/)
 
     ![](/img/custom/external_how_to_make_jekyll_multilingual.png)
+
   - <i class="fa fa-link" aria-hidden="true"></i> [Making Jekyll multilingual](https://www.sylvaindurand.org/making-jekyll-multilingual/)
 
     ![](/img/custom/external_making_jekyll_multilingual.png)
@@ -71,7 +74,7 @@ Jekyll tiene un unico procesamiento de lenguage. La idea entonces es, modificar 
   lang: lenguaje
   ...
   ```
-  <i class="fa fa-eye" aria-hidden="true"></i> *Ejemplo en <i class="fa fa-github-square" aria-hidden="true"></i> [repositorio de está publicación](https://github.com/nelbren/nelbren.github.io/blob/master/es/_posts/2018-05-21-multilanguage-jekyll.md).*
+  <i class="fa fa-eye" aria-hidden="true"></i> *Ejemplo en <i class="fa fa-github-square" aria-hidden="true"></i> [repositorio de está publicación](https://github.com/nelbren/nelbren.github.io/blob/master/en/_posts/2018-05-21-multilanguage-jekyll.md).*
 
 - ### Paso III: <i class="fa fa-file-text" aria-hidden="true"></i> Páginas
 
@@ -92,7 +95,7 @@ Jekyll tiene un unico procesamiento de lenguage. La idea entonces es, modificar 
   {% assign cb2c = '}}' %}
   {% assign cbo = '{' %}
   {% assign cbc = '}' %}
-  3. *Modificar en archivo **index.html** el formato de fecha y enlace a **tags.html***
+  3. *Modificar en el archivo **index.html**: formato de fecha y enlace **tags.html***
   ```html
   ...
     Posted on {{ cb2o }} post.date | date: "%B %-d, %Y" {{ cb2c }}     
@@ -145,7 +148,7 @@ Jekyll tiene un unico procesamiento de lenguage. La idea entonces es, modificar 
 
 - ### Paso IV: <i class="fa fa-columns" aria-hidden="true"></i> Diseños
 
-  1. *Modificar en archivo **_layouts/post.html** enlace tags, anterior y siguiente*
+  1. *Modificar en el archivo **_layouts/post.html**: enlace tags, anterior y siguiente*
   ```html
   ...
             <a href="{{ cb2o }} site.baseurl {{ cb2c }}/tags#{{ cb2o }}- tag -{{ cb2c }}">{{ cb2o }}- tag -{{ cb2c }}</a>
@@ -187,7 +190,7 @@ Jekyll tiene un unico procesamiento de lenguage. La idea entonces es, modificar 
   ```
   <i class="fa fa-eye" aria-hidden="true"></i> *Ejemplo de **_layouts/post.html** en <i class="fa fa-github-square" aria-hidden="true"></i> [repositorio de está publicación](https://github.com/nelbren/nelbren.github.io/blob/master/_layouts/post.html).*
     
-  2. *Modificar en archivo **_includes/header.html** el formato de fecha:*
+  2. *Modificar en el archivo **_includes/header.html**: el formato de fecha:*
   ```html
   ...
     <span class="post-meta">Posted on {{ cb2o }} page.date | date: "%B %-d, %Y" {{ cb2c }}</span>
@@ -268,7 +271,7 @@ Jekyll tiene un unico procesamiento de lenguage. La idea entonces es, modificar 
   ...
   ```
   <i class="fa fa-eye" aria-hidden="true"></i> *Ejemplo de **_includes/header.html** en <i class="fa fa-github-square" aria-hidden="true"></i> [repositorio de está publicación](https://github.com/nelbren/nelbren.github.io/blob/master/_includes/header.html).*
-  3. *Modificar en archivo **_includes/nav.html** el enlace de la página:*
+  3. *Modificar en el archivo **_includes/nav.html**: el enlace de la página:*
     ```html
     ...
         <a class="navbar-brand" href="{{ cb2o }} site.url {{ cb2c }}">{{ cb2o }} site.title {{ cb2c }}</a>
@@ -355,12 +358,12 @@ Jekyll tiene un unico procesamiento de lenguage. La idea entonces es, modificar 
   ```
   <i class="fa fa-eye" aria-hidden="true"></i> *Ejemplo de **_layouts/post.html** en <i class="fa fa-github-square" aria-hidden="true"></i> [repositorio de está publicación](https://github.com/nelbren/nelbren.github.io/blob/master/_data/navigation.yml).*
     
-  2. *Modificar en archivo **_config.yml**: *
+  2. *Modificar en el archivo **_config.yml**:*
   ```markdown
   ...
   url: "http://nelbren.github.io"
-                                    |
-                                    v
+                     |
+                     v
   url: ""                                     
   ...
   ```
