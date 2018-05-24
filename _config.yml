@@ -179,7 +179,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      lang: en
+      # lang: en
       base-url: "/"
   -
     scope:
@@ -187,14 +187,14 @@ defaults:
     values:
       layout: "page"
       show-avatar: false
-      lang: en
+      # lang: en
       base-url: "/"
-  -
-    scope:
-      path: es
-    values:
-      lang: es
-      base-url: "/es/"
+  # -
+  #   scope:
+  #     path: es
+  #   values:
+  #     lang: es
+  #     base-url: "/es/"
 
 # Use tags index page and make tags on each post clickable
 link-tags: true
@@ -267,38 +267,11 @@ plugins:
   - jekyll-sitemap
 
 # Value to use into url per language
-lang: en
-languages: ["en", "es"]
-langs-value:
-    en: ""
-    es: es
-
-# Translation
-t:
-    home:
-        en: "Home"
-        fr: "Accueil"
-    project:
-        en: "Project"
-        fr: "Projets"
-    about-me:
-        en: "About me"
-        fr: "À propos"
-    contact:
-        en: "Contact"
-        fr: "Contact"
-    subtitle:
-        en: "My very own part of the Internet"
-        fr: "Ma propre parcelle d'Internet"
-    footer-article:
-        en: "Found a mistake, or just want to add your words to this post ?"
-        fr: "Vous avez trouvé une erreur ou souhaitez juste ajouter votre grain de sel ?"
-    fork:
-        en: "Fork it on github"
-        fr: "Éditer sur github"
-    desc:
-        en: "My personnal website. Anthony Granger"
-        fr: "Mon site personnel. Anthony Granger"
+#lang: en
+#languages: ["en", "es"]
+#langs-value:
+#    en: ""
+#    es: es
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

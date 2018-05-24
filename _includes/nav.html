@@ -12,9 +12,9 @@
       {% else %}
         {% if page.lang == 'en' %}
         <a class="navbar-brand" href="{{ site.url }}/">{{ site.title }}</a>
-	{% else %}
+	      {% else %}
         <a class="navbar-brand" href="{{ site.url }}/es">{{ site.title }}</a>
-	{% endif %}
+	      {% endif %}
       {% endif %}
     </div>
 
@@ -28,8 +28,6 @@
             {% else %}
               {% assign url = link[1] | relative_url %}
             {% endif %}
-
-            <!-- a class="page-link" href="{{ url }}">{{ link.title }}</a -->
 
             {% if link[1].first %}
             <li class="navlinks-container">

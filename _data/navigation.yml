@@ -6,6 +6,6 @@ languages:
         - Nagios Check Status (NCS): en/nagios/2018/05/10/NCS_nagios_check_status
   - language: "es"
     links:
-      Sobre mi: es/sobremi
+      Sobre mi: es/aboutme
       proyectos:
         - Estado de comprobación de Nagios (NCS): es/nagios/2018/05/10/NCS_nagios_check_status
