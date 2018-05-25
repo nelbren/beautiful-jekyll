@@ -19,7 +19,7 @@ tags:
 ## <i class="fa fa-question-circle" aria-hidden="true"></i> ¿Qué es esto?
 
 ### <i class="fa fa-quote-left" aria-hidden="true"></i> Scientia potentia est <i class="fa fa-quote-right" aria-hidden="true"></i>
-El conocimiento es poder. El saber de antemano o previo a que el sistema colapse o se quede sin recursos, se convierte en una prioridad, debido a esto, y para completar el panorama de programas que nos muestran los recursos y rendimiento de nuestros sistemas, nos llega el MSIB con una super potente fabulosa y extremadamente consisa barra de informacion de los recursos actuales.
+***El conocimiento es poder.*** El saber de antemano o previo a que el sistema colapse o se quede sin recursos, se convierte en una prioridad, debido a esto, y para completar el panorama de programas que nos muestran los recursos y rendimiento de nuestros sistemas, nos llega **SI** con una super potente fabulosa y extremadamente consisa barra de informacion de los recursos actuales.
 
 ## <i class="fa fa-globe" aria-hidden="true"></i> Herramientas con más detalle:
 
@@ -34,6 +34,10 @@ El conocimiento es poder. El saber de antemano o previo a que el sistema colapse
   - #### <i class="fa fa-star" aria-hidden="true"></i> [conky-cli - Light-weight system monitor for terminal](https://github.com/brndnmtthws/conky)
 
   - #### <i class="fa fa-star" aria-hidden="true"></i> [glances - An Eye on your system. A top/htop alternative](https://nicolargo.github.io/glances/)
+
+  - #### <i class="fa fa-star" aria-hidden="true"></i> [The Stress Terminal UI: s-tui](https://amanusk.github.io/s-tui/)
+
+    - ##### <i class="fa fa-line-chart" aria-hidden="true"></i> pip install s-tui; apt install strees; while true; do si; done <i class="fa fa-tachometer" aria-hidden="true"></i>
 
 - ### <i class="fa fa-desktop" aria-hidden="true"></i> Web:
 
@@ -62,9 +66,8 @@ Es una secuencia de comandos de bash que extrae la información utilizando las h
 
 ## <i class="fa fa-info-circle" aria-hidden="true"></i> ¿Cómo lo uso?
 
-- ### <i class="fa fa-sign-in" aria-hidden="true"></i> Al iniciar sesión:
+- ### <i class="fa fa-sign-in" aria-hidden="true"></i> Al iniciar sesión, adicionar al archivo **/etc/profile**:
   ```bash
-  tail -1 /etc/profile
   . /usr/local/npres/bin/alias/set.bash
   ```
 
@@ -82,3 +85,10 @@ Es una secuencia de comandos de bash que extrae la información utilizando las h
 - ### <i class="fa fa-keyboard-o" aria-hidden="true"></i> Por demanda:
   Ejemplo de ejecución de comando:
   ![](/img/custom/sib_example_por_demanda.png)
+
+<hr class="small">
+
+## <i class="fa fa-thumbs-up" aria-hidden="true"></i> Gracias a:
+
+  - #### <i class="fa fa-male" aria-hidden="true"></i> Paul Colby <i class="fa fa-smile-o" aria-hidden="true"></i> por el código del [Cálculo del uso de CPU desde /proc/stat](http://colby.id.au/calculating-cpu-usage-from-proc-stat/)
+  - #### <i class="fa fa-male" aria-hidden="true"></i> Nelbren <i class="fa fa-smile-o" aria-hidden="true"></i> por el código del [si](https://github.com/nelbren/npres/blob/master/bin/system/si.bash)  
