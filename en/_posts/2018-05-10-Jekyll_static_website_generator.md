@@ -22,7 +22,7 @@ This is my first post.
 
 ![](/img/custom/dr._jekyll_y_mr._hyde-2.jpg)
 
-# 2018-05-10-Jekyll_static_website_generator.md
+### 2018-05-10-Jekyll_static _website_generator.md
 
 {% highlight md linenos %}
 ---
@@ -47,7 +47,7 @@ This is my first post.
 
 ![](/assets/images/dr._jekyll_y_mr._hyde-2.jpg)
 
-# 2018-05-10-Jekyll_static_website_generator.md
+### 2018-05-10-Jekyll_static _website_generator.md
 
 \{\% highlight md linenos \%\}
 ¿INCEPTION?

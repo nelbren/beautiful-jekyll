@@ -150,14 +150,14 @@ kramdown:
     #css_class: 'monokai_sublime'
     #css_class: 'night'
     span:
-      line_numbers: false
+      line_numbers: true
     block:
       line_numbers: true
       start_line: 1
 
 #permalink: /:year-:month-:day-:title/
 permalink: /:categories/:year/:month/:day/:title/
-paginate: 5
+paginate: 3
 paginate_path: "/page:num"
 paginate_per_category: true
 default_category: "en"

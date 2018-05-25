@@ -1,8 +1,8 @@
 ---
-title: Barra de Info. del Sistema
+title: System Information Bar
 date: 2018-05-23 21:00:00
 ref: minimalist-system-information-bar
-lang: es
+lang: en
 show-avatar: true
 bigimg: /img/custom/sib_system-information-bar_big.png
 categories:
@@ -14,14 +14,14 @@ tags:
 - system
 ---
 
-# Barra de Información del Sistema
+# System Info Bar
 
-## <i class="fa fa-question-circle" aria-hidden="true"></i> ¿Qué es esto?
+## <i class="fa fa-question-circle" aria-hidden="true"></i> What is this?
 
 ### <i class="fa fa-quote-left" aria-hidden="true"></i> Scientia potentia est <i class="fa fa-quote-right" aria-hidden="true"></i>
-El conocimiento es poder. El saber de antemano o previo a que el sistema colapse o se quede sin recursos, se convierte en una prioridad, debido a esto, y para completar el panorama de programas que nos muestran los recursos y rendimiento de nuestros sistemas, nos llega el MSIB con una super potente fabulosa y extremadamente consisa barra de informacion de los recursos actuales.
+Knowledge is power. Knowing before hand or previewsly the system colapses or run out of resources, it becomes a priority, due to this, and to contemplate the panorama of programs that show us the resources and performance of our systems, SIB arrives with a super powerful, fabulous and extremely concise bar of information of the actual resources.
 
-## <i class="fa fa-globe" aria-hidden="true"></i> Herramientas con más detalle:
+## <i class="fa fa-globe" aria-hidden="true"></i> Tools with more detail:
 
 - ### <i class="fa fa-terminal" aria-hidden="true"></i> Terminal:
 
@@ -45,40 +45,40 @@ El conocimiento es poder. El saber de antemano o previo a que el sistema colapse
 
   - #### <i class="fa fa-star" aria-hidden="true"></i> [eZ Server Monitor - Monitoring Linux servers](https://www.ezservermonitor.com/)
 
-## <i class="fa fa-wrench" aria-hidden="true"></i> ¿Cómo funciona?
-Es una secuencia de comandos de bash que extrae la información utilizando las herramientas del sistema o de los archivos de proceso, segun los umbrales asigna el color, y muestra todo en una sola linea en menos de 80 caracteres.
+## <i class="fa fa-wrench" aria-hidden="true"></i> How does it work?
+It is a sequence of commands from bash which extracts the information utilizing the tools from the system or the files of the process, according to the thresholds it assigns the color, and shows everything in a single line in less than 80 characters.
 
-## <i class="fa fa-eye" aria-hidden="true"></i> Información mostrada:
+## <i class="fa fa-eye" aria-hidden="true"></i> Information shown:
 
   ![](/img/custom/sib_system-information-bar.png)
 
-## <i class="fa fa-arrow-circle-down" aria-hidden="true"></i> ¿Cómo lo obtengo?
+## <i class="fa fa-arrow-circle-down" aria-hidden="true"></i> How do i obtain it?
 
-- ### <i class="fa fa-github-square" aria-hidden="true"></i> Por medio de [github](https://github.com/nelbren/npres.git):
+- ### <i class="fa fa-github-square" aria-hidden="true"></i> Through [github](https://github.com/nelbren/npres.git):
   ```bash
   cd /usr/local/
   git clone https://github.com/nelbren/npres.git
   ```
 
-## <i class="fa fa-info-circle" aria-hidden="true"></i> ¿Cómo lo uso?
+## <i class="fa fa-info-circle" aria-hidden="true"></i> How do i use it?
 
-- ### <i class="fa fa-sign-in" aria-hidden="true"></i> Al iniciar sesión:
+- ### <i class="fa fa-sign-in" aria-hidden="true"></i> When logging in:
   ```bash
   tail -1 /etc/profile
   . /usr/local/npres/bin/alias/set.bash
   ```
 
-- ### <i class="fa fa-keyboard-o" aria-hidden="true"></i> Por demanda:
+- ### <i class="fa fa-keyboard-o" aria-hidden="true"></i> By demand:
   ```bash
   si
   ```
 
-## <i class="fa fa-eye" aria-hidden="true"></i> Ejemplos:
+## <i class="fa fa-eye" aria-hidden="true"></i> Examples:
 
-- ### <i class="fa fa-sign-in" aria-hidden="true"></i> Al iniciar sesión:
-  Ejemplo de ejecución de comando:
+- ### <i class="fa fa-sign-in" aria-hidden="true"></i> When logging in:
+  Example of command execution:
   ![](/img/custom/sib_example_etc_profile.png)
 
-- ### <i class="fa fa-keyboard-o" aria-hidden="true"></i> Por demanda:
-  Ejemplo de ejecución de comando:
+- ### <i class="fa fa-keyboard-o" aria-hidden="true"></i> By demand:
+  Example of command execution:
   ![](/img/custom/sib_example_por_demanda.png)

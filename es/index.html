@@ -90,6 +90,8 @@ show-avatar: true
   {% endfor %}
 </div>
 
+paginator.total_pages: {{ paginator.total_pages }}
+
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
   {% if paginator.previous_page %}

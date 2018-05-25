@@ -57,9 +57,9 @@ echo -e "${nG} Hello ${Iw} World $S"
   > <i class="fa fa-quote-left" aria-hidden="true"></i> *Repository of utilities of support of management of [Debian GNU/Linux](https://debian.org). *<i class="fa fa-quote-right" aria-hidden="true"></i>
 
 - ### <i class="fa fa-download" aria-hidden="true"></i> Through wget:
-  ```bash
+  {% highlight bash linenos %}
   wget https://raw.githubusercontent.com/nelbren/npres/master/lib/super-tiny-colors.bash
-  ```
+  {% endhighlight %}
 
 ## <i class="fa fa-info-circle" aria-hidden="true"></i> How are the colors defined?
 
