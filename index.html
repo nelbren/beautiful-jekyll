@@ -10,7 +10,7 @@ show-avatar: true
 
 <div class="posts-list">
   {% capture site_lang %}{{ site.lang | default: "en" }}{% endcapture %}
-  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% assign posts=paginator.posts | where:"lang", page.lang %}
   {% for post in posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -60,8 +60,6 @@ show-avatar: true
    </article>
   {% endfor %}
 </div>
-
-paginator.total_pages: {{ paginator.total_pages }}
 
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">

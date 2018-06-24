@@ -6,13 +6,11 @@ title: About me
 show-avatar: true
 subtitle: "'Be careful, lest in casting out your demon you exorcise the best thing in you.' Friedrich Nietzsche"
 ---
-
+<hr class="small">
 ### My name is ***Nelbren***. 
 
-- #### I am a developer & sysadmin from Honduras. 
-- #### User of the universal operating system (Debian GNU/Linux). 
-- #### I like free software   , play video games  & listening music.
-
+- I am a developer & sysadmin from Honduras. 
+- User of the universal operating system (Debian GNU/Linux). 
+- I like free software, develop, play video games and listen to music.
 <hr class="small">
-
-### 'When there is no feedback from the client, it means that: the program works well or they are not using it.' ***Nelbren***&trade;
+> 1. 'No comment from the client, denotes that the system works well or does not use it' ***Nelbren***&trade;

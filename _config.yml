@@ -156,10 +156,11 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-#permalink: /:year-:month-:day-:title/
 permalink: /:categories/:year/:month/:day/:title/
-paginate: 3
-paginate_path: "/page:num"
+# https://pages.github.com/versions/
+# github only sopport jekyll-paginate
+paginate: 200
+paginate_path: "/page/:num"
 paginate_per_category: true
 default_category: "en"
 
