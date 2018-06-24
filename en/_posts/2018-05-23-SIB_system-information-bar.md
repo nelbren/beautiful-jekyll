@@ -69,7 +69,7 @@ It is a sequence of commands from bash which extracts the information utilizing 
 
 ## <i class="fa fa-info-circle" aria-hidden="true"></i> How do i use it?
 
-- ### <i class="fa fa-sign-in" aria-hidden="true"></i> When logging in, , add to the file **/etc/profile**:
+- ### <i class="fa fa-sign-in" aria-hidden="true"></i> When logging in, add to the file **/etc/profile**:
   ```bash
   . /usr/local/npres/bin/alias/set.bash
   ```
