@@ -13,4 +13,4 @@ subtitle: "'Be careful, lest in casting out your demon you exorcise the best thi
 - User of the universal operating system (Debian GNU/Linux). 
 - I like free software, develop, play video games and listen to music.
 <hr class="small">
-> 1. 'No comment from the client, denotes that the system works well or does not use it' ***Nelbren***&trade;
+> 1. 'No response from the user indicates that the program works well or does not use it' ***Nelbren***&trade;

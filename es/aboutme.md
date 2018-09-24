@@ -13,5 +13,5 @@ subtitle: "'Ten cuidado cuando expulses tus demonios, no vayas a desechar lo mej
 - Usuario del sistema operativo universal (Debian GNU/Linux). 
 - Me gusta el software libre, jugar videojuegos y escuchar música.
 <hr class="small">
-> 01. 'Ningún comentario del cliente, denota que el sistema funciona bien o no lo usa' ***Nelbren***&trade;
+> 01. 'Ninguna respuesta del usuario, indica que el programa trabaja bien o no lo usa' ***Nelbren***&trade;
 
